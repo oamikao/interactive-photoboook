@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(255, 234, 190);
+    background-image: url(images/bg.jpg);
+}
+
+
+
+header {
+    background-color: #f6d191;
+    text-align: center;
+    background-image: url(images/Blob.png), url(images/Blob2.png);
+    background-repeat: no-repeat;
+    background-size: 85px;
+    background-position: left bottom, right bottom;
+}
+
+
+header h1 {
+   padding-top: 30px;
+   margin: 0;
+   color: #663d31;
+   font-family: "Days One", sans-serif;
+}
+
+header h2 {
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    color: #663d31;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+main {
+    margin-top: 30px;
+    background-color: rgb(255, 247, 232);
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Tilt Neon", sans-serif;
+    filter: drop-shadow(7px 10px 27.9px rgba(184, 155, 106, 0.455));
+}
+
+
+ol li a, ul li a {
+    display: block;
+    color: rgb(57, 48, 18);
+    padding: 20px;
+    margin: 7px;
+    background-color: #e5def4;
+    box-shadow: 5px 5px 11.8px -5px rgba(237, 217, 255, 0.975) inset, -7px -6px 9px -2px rgba(190, 133, 255, 0.25) inset;
+}
+
+
+ol, ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+a {
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+
+h1{
+    font-size: 35px;
+}
+
+aside {
+
+    line-height: 25px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: Tilt Neon;
+}
+    
+.icons {
+    font-size: 20px;
+    color: rgb(120, 90, 180);
+}
+
+address a{
+color: rgb(122, 95, 40);
+}
+
+
+@media only screen and (min-width: 600px) {
+
+header { 
+    margin: auto;  
+    background-image:url(images/squiggle.png), url(images/Squiggle2.png), url(images/Blob.png), url(images/Blob2.png);
+    background-repeat: no-repeat;
+    background-size: contain, contain, 110px, 110px;
+    background-position: left top, right top, 25%, 75%;
+}
+
+.tools {
+    margin-top: 25px;
+}
+
+.title {
+    margin: auto;
+    width: fit-content;
+    background-color: #f6d191;
+    padding: 10px;
+    border-radius: 90px;
+    
+}
+
+main {
+   margin: auto;
+   max-width: 1100px;
+   padding: 40px;
+   margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+
+aside p {
+    text-align: left;
+}
+
+aside img {
+    margin-right: 15px;
+}
+
+.cont {
+  display: flex;
+  gap: 60px;
+  margin: auto;    
+  margin-top: 30px;
+}
+
+.aboutme {
+   flex: 1;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+.mainlinks {
+    display: flex;
+    width: 500px;
+    gap: 40px;
+    margin: auto;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+li {
+  flex: 1;
+  padding: 5px;
+}
+
+li a:hover{
+    background-color: rgb(152, 101, 246);
+}
+
+.usefultools {
+    display: flex;
+    font-size: 15px;
+}
+
+
+.icons {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+}
+
+}

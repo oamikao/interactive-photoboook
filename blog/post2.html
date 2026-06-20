@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post 2</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"  rel="stylesheet">
+
+    <!-- gogle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+
+    
+<body>
+    <div class="desktopnav">
+        <header>
+            <h1>Amika's Blog</h1>
+        </header>
+
+        <nav class="singlepostnav">
+            <ul>
+                <li><a href="post1.html">Previous</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="post3.html">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <img src="images/post2image.jpg" alt="header image">
+        <div class="postheader">
+             <h2>My Article HTML</h2>
+             <time datetime="2026-04-28">April 28, 2026</time>
+        </div>
+
+        <div class="desktopflex">
+            
+            <article class="postcont">
+                <picture>
+                <source media="(min-width: 600px)" srcset="images/verticalline.png">
+                <img src="images/linebreak.png" alt="linebreak">
+            </picture>
+                <p>After reading through the article on HTML elements, I think that I did a good job focusing on keeping semantic elements for structure and readability, making sure that each block of text or header/subtitle is properly defined when needed. I made sure that relevant content stayed within the section tags of the main body, and additional but not necessary info in the footer tags. I didn’t add any div tags to the actual HTML so all the styling decisions are in the css stylesheet.</p>
+                <p>The only small detail I had to make a solution for was styling the subtitle for the image, which meant I had to go back into my index and add a class to my paragraph tags so make sure I was only adjusting that one line. When styling, I was aiming for an archival/document look since my topic was about an old medium of art, so I created that effect with color and typography, but still definitely could’ve added more to emphasize that style. I experimented with drop shadows and paragraph/nav padding and margins to get the feel that I wanted, and found that it was actually a bit hard to make the article visually interesting with the limited tools that I had.</p>
+                <p>Playing around with colors and text/border decorations was fun to do but felt very limited, and looking back, I definitely could have added background images to or icons that were relevant to the look I was going for. Overall though, it was fun to see the article have more personality once styling was added to it. </p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+       <p>Designed by Amika</p> 
+       <p><a href="../index.html">Portal Page</a></p>
+    </footer>
+
+</body>
+</html>
